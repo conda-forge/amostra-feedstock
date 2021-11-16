@@ -1,6 +1,6 @@
 {% set name = "amostra" %}
-{% set version = "1.0.1" %}
-{% set sha256 = "b72f38171c4e14c4b8f6245375d44e9d704f848e5ea5265836f9c045919ecd74" %}
+{% set version = "0.2" %}
+{% set sha256 = "d0e96cb85614474fde40d1cc9623f9b0a03ab58bd7a2e82be9d5cf3fb87084bf" %}
 
 package:
   name: {{ name|lower }}
@@ -45,5 +45,4 @@ about:
 extra:
   recipe-maintainers:
     - mrakitin
-    - kbeeperez
     - conda-forge/event-model
