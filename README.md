@@ -7,9 +7,9 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/amostra-feedstock/blob/master/LICENSE.txt)
 
-Summary: amostra is a collection of light-weight sample management classes
+Summary: This is a classic version (v0.2.x branch) of amostra that is a collection of light-weight sample management classes
 
-Development: https://github.com/NSLS-II/amostra
+Development: https://github.com/NSLS-II/amostra/tree/v0.2.x
 
 Documentation: https://nsls-ii.github.io/amostra
 
@@ -120,6 +120,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@JunAishima](https://github.com/JunAishima/)
 * [@conda-forge/event-model](https://github.com/conda-forge/event-model/)
 * [@mrakitin](https://github.com/mrakitin/)
 

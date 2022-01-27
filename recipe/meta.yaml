@@ -1,13 +1,13 @@
 {% set name = "amostra" %}
-{% set version = "0.2" %}
-{% set sha256 = "d0e96cb85614474fde40d1cc9623f9b0a03ab58bd7a2e82be9d5cf3fb87084bf" %}
+{% set version = "0.2.3" %}
+{% set sha256 = "398c07b3edf20eef5293db65b7843376151d4be5602e1063a1c9c257eb7dac4c" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/NSLS-II/{{ name }}/archive/v{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -38,11 +38,12 @@ about:
   home: https://nsls-ii.github.io/amostra
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: amostra is a collection of light-weight sample management classes
-  dev_url: https://github.com/NSLS-II/amostra
+  summary: This is a classic version (v0.2.x branch) of amostra that is a collection of light-weight sample management classes
+  dev_url: https://github.com/NSLS-II/amostra/tree/v0.2.x
   doc_url: https://nsls-ii.github.io/amostra
 
 extra:
   recipe-maintainers:
+    - JunAishima
     - mrakitin
     - conda-forge/event-model
