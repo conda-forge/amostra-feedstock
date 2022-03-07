@@ -1,6 +1,6 @@
 {% set name = "amostra" %}
-{% set version = "0.2.3" %}
-{% set sha256 = "398c07b3edf20eef5293db65b7843376151d4be5602e1063a1c9c257eb7dac4c" %}
+{% set version = "0.2.4" %}
+{% set sha256 = "ec5cf014b081b2c62e0dd884ae84579a24594219141a85964c8732657f62198c" %}
 
 package:
   name: {{ name|lower }}
